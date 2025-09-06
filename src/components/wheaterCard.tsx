@@ -31,6 +31,7 @@ export function WeatherCard({ data, variant = "medium", onClick }: WeatherCardPr
           <div className="h-16 w-16 bg-white/10 rounded-full" />
           <div className="flex-1">
             <div className="h-4 bg-white/10 rounded mb-2" />
+            <h2 className="">Ciudad no existente por favor validar nuevamente</h2>
             <div className="h-3 bg-white/8 rounded w-1/2" />
           </div>
         </div>
